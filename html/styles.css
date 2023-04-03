@@ -64,5 +64,6 @@ body {
     padding: 1rem;
     font-size: 1.25rem;
     text-align: center;
+    justify-content: center;
   }
 }
