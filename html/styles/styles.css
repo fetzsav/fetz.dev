@@ -1,4 +1,7 @@
+
+@media (min-width: 992x) {
 body {
+    padding-top: 2em;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -47,7 +50,7 @@ body {
     text-decoration: none;
     border-radius: 25px;
 }
-
+}
 
 @media (max-width: 768px) {
   body {
