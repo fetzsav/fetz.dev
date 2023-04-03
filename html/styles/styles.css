@@ -34,7 +34,9 @@ body {
 }
 
 .navbar {
-  padding-top: 4rem;
+  position: fixed;
+  bottom: 0;
+  width: 40%;
 }
 
 .navitem {
