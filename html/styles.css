@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 .main {
     width: 100%;
     max-width: 500px;
@@ -43,4 +45,19 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 25px;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 5rem;
+    background-image: url('/images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+  }
+  .navbar {
+    padding-top: 14rem;
+    margin-bottom: 10rem;
+  }
 }
