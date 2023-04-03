@@ -59,12 +59,11 @@ body {
   .navbar {
     padding-top: 4rem;
     margin-bottom: 1rem;
+    justify-content: center;
   }
   .navitem {
     padding: 1rem;
     font-size: 1.25rem;
     text-align: center;
-    justify-content: center;
-    align-items: center;
   }
 }
