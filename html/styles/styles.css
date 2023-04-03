@@ -54,15 +54,23 @@ body {
       max-width: 80%;
       margin: 0 auto;
       padding-top: 4rem;
+      padding-bottom: 10rem;
       background-image: url('/images/background.jpg');
       background-position: center;
       background-size: cover;
       background-color: black;
   }
+  .main span {
+    padding-bottom: 3remi;
+  }
+  .about {
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+  }
   .navbar {
-    padding-top: 2rem;
-    margin-bottom: 1rem;
-    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   .navitem {
     padding: 1rem;
