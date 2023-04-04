@@ -59,6 +59,7 @@ body {
       background-color: black;
   }
   .navbar {
+    width: 100%;
     margin-bottom: 1rem;
     justify-content: center;
   }
