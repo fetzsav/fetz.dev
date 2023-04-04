@@ -1,8 +1,7 @@
 body {
-  margin: 0 auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
-    display: flex;
     font-family: 'Roboto Slab', serif;
     background-image: url('/images/background.jpg');
     background-repeat: no-repeat;
@@ -47,7 +46,9 @@ body {
 
 
 @media (min-width: 992px) {
+  .main {
 
+  }
 
 }
 
@@ -57,6 +58,9 @@ body {
       background-position: center;
       background-size: cover;
       background-color: black;
+  }
+  .main {
+    padding-top: 4rem;
   }
   .navbar {
     width: 100%;
