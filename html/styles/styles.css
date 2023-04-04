@@ -97,4 +97,12 @@ body {
     font-size: 1.25rem;
     text-align: center;
   }
+  .book__image {
+    flex-shrink: 0;
+    float: left;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
 }
