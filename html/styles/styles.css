@@ -29,6 +29,18 @@ body {
     text-align: center;
 }
 
+.bookshelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar {
   position: fixed;
   bottom: 0;
@@ -47,7 +59,20 @@ body {
 
 @media (min-width: 992px) {
   .main {
+    padding-top: 4rem;
+  }
 
+  .book__cover {
+
+  }
+
+  .book__image {
+    flex-shrink: 0;
+    float: left;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
   }
 
 }
