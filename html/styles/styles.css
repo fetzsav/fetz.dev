@@ -101,13 +101,13 @@ body {
     text-align: center;
   }
   .bookshelf {
-    max-width: 75%;
+
   }
   .book__image {
     flex-shrink: 0;
     float: left;
-    width: 100px;
-    height: 150px;
+    width: 50px;
+    height: 75px;
     object-fit: cover;
     margin-right: 20px;
   }
