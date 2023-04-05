@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+    .content {
+        margin-top: 3rem;
+    }
+    span {
+        font-size: 3rem;
+    }
+    .social-icons {
+        padding-top: 1rem;
+    }
+}

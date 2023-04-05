@@ -1,114 +1,51 @@
 body {
+    overflow: hidden;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
     font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
     background-image: url('/images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    height: 100%;
+    align-items:center;
+    text-align: center;
     color: white;
-}
-
-
-.main {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-  .main span {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.about {
-    text-align: center;
-}
-
-.bookshelf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 4rem;
-}
-
-.book {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 
 .navbar {
   position: fixed;
   bottom: 0;
-  width: 40%;
+  width: 100%;
+  justify-content: center;
 }
 
 .navitem {
-    padding: 1rem;
-    font-size: 1.5rem;
     text-align: center;
     color: white;
     text-decoration: none;
-    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
+.content {
+  margin-bottom: 50px;
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
 
 @media (min-width: 992px) {
-  .main {
-    padding-top: 4rem;
-  }
+    .navitem {
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+    .content{
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
 
-  .bookpage-header {
-    margin-bottom: 4rem;
-  }
-
-  .book__image {
-    flex-shrink: 0;
-    float: left;
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    margin-right: 20px;
-  }
-
-}
-
-@media (max-width: 768px) {
-  body {
-      max-width: 80%;
-      background-position: center;
-      background-size: cover;
-      background-color: black;
-  }
-  .main {
-    padding-top: 4rem;
-  }
-  .navbar {
-    width: 100%;
-    margin-bottom: 1rem;
-    justify-content: center;
-  }
-  .navitem {
-    padding: 1rem;
-    font-size: 1.25rem;
-    text-align: center;
-  }
-  .bookshelf {
-
-  }
-  .book__image {
-    flex-shrink: 0;
-    float: left;
-    width: 30px;
-    height: 45px;
-    object-fit: cover;
-    margin-right: 10px;
-  }
 }
