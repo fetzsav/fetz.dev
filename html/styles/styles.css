@@ -2,7 +2,6 @@ body {
     overflow: hidden;
     margin: 0 auto;
     font-family: 'Roboto Slab', serif;
-    font-size: 1.5em;
     background-image: url('/images/background.jpg');
     height: 100%;
     align-items:center;
@@ -37,15 +36,27 @@ body {
   box-sizing: border-box;
 }
 
-@media (min-width: 992px) {
-    .navitem {
-        padding: 1rem;
-        font-size: 2.5rem;
-    }
-    .content{
-        justify-content: center;
-        align-items:center;
-        text-align: center;
-    }
 
+.navitem {
+  padding: 1rem;
+}
+.content{
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .navitem {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 778px) {
+  body {
+    font-size: 1.25rem;
+  }
+  .navitem {
+    font-size: 1.5rem;
+  }
 }

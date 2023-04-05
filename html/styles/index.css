@@ -9,3 +9,15 @@
         padding-top: 1rem;
     }
 }
+
+@media (max-width: 778px) {
+     .content {
+        margin-top: 2rem;
+    }
+    span {
+        font-size: 2rem;
+    }
+    .social-icons {
+        padding-top: 1rem;
+    }
+}
