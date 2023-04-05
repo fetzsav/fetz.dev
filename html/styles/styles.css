@@ -34,11 +34,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 4rem;
 }
 
 .book {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .navbar {
@@ -62,8 +65,8 @@ body {
     padding-top: 4rem;
   }
 
-  .book__cover {
-
+  .bookpage-header {
+    margin-bottom: 4rem;
   }
 
   .book__image {
@@ -96,6 +99,9 @@ body {
     padding: 1rem;
     font-size: 1.25rem;
     text-align: center;
+  }
+  .bookshelf {
+    max-width: 75%;
   }
   .book__image {
     flex-shrink: 0;
