@@ -39,6 +39,9 @@
     .bookshelf{
         max-width: 80%;
     }
+    .book {
+        flex-direction: row;
+    }
     .bookpage-header {
         margin-bottom: 4rem;
         font-size: 2rem;
